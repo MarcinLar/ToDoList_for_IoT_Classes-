@@ -28,7 +28,7 @@ Redirects to the /todo/addedit endpoint with the parameter id of the task.
 ### Post     /todo/ addedit
                                               
 Adds or edits a task based on the data entered in the form.
-Required parameters: 
+Required parameters:                                                
 Id: Automatically assigned(in case of editing downloaded from the database along with the whole task)                     
 Title: task title (required)              
 Description: task description (optional)                  
