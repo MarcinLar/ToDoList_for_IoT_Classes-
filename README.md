@@ -6,7 +6,7 @@ The ToDo API allows managing tasks in the ToDo application through CRUD operatio
 ## Endpoints
 
 ### Getting all tasks
-Get     /todo/list
+**Get     /todo/list**
 Returns a view containing a list of all tasks.
 ![image](https://github.com/MarcinLar/ToDoList_for_IoT_Classes-/assets/127322724/f36f1095-4816-4f89-bbff-ba93876630de)
 
