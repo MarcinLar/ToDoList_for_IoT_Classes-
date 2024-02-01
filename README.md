@@ -45,4 +45,7 @@ Additional information
 After adding, editing, or deleting a task, the user will be redirected to a page displaying the list of all tasks.
 During task addition or editing, the title field is required.
 
+https://github.com/MarcinLar/ToDoList_for_IoT_Classes-/assets/127322724/3abaa6c1-100a-41f0-ae63-c9edc122d02b
+
+
 Usage examples
