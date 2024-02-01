@@ -15,17 +15,17 @@ Returns a view containing a list of all tasks.
 Get    /todo/new
                                               
 Returns a form for adding a new task.
-Redirects to todo/add or edit.
+Redirects to todo/addedit.
 ![image](https://github.com/MarcinLar/ToDoList_for_IoT_Classes-/assets/127322724/ecdea37b-e512-45e3-b96f-1a86947d66ce)
 
 ### Updating an existing task
 Get    /todo/{id}/edit
                                               
 Returns a form for editing a task.
-Redirects to the /todo/add or edit endpoint with the parameter id of the task.
+Redirects to the /todo/addedit endpoint with the parameter id of the task.
 ![image](https://github.com/MarcinLar/ToDoList_for_IoT_Classes-/assets/127322724/0b2d2354-644f-4dce-a7fa-09a33d919350)
 
-### Post     /todo/ add or edit
+### Post     /todo/ addedit
                                               
 Adds or edits a task based on the data entered in the form.
 Required parameters:
