@@ -46,15 +46,15 @@ Get      /todo/{id}/delete
 Deletes the existing task with the specified identifier when we clik the delete button on /todo/list side.
 
 ### Response codes
-200 OK - the request was successful.
+200 OK - the request was successful.                                         
 302 Found - redirect to another resource.
 
 ### Authorization
 The ToDo List API does not require authentication.
 
 ### Additional information
-After adding, editing, or deleting a task, the user will be redirected to a page displaying the list of all tasks.
-During task addition or editing, the title field is required.
+After adding, editing, or deleting a task, the user will be redirected to a page displaying the list of all tasks.                                                           
+When adding or editing a task it is required to fill in the title field, without the title field the user will be redirected back to the form without adding/editing the task
 
 ### Usage examples
 
